@@ -65,6 +65,7 @@ while True:
         for item in items:
             if item[0] != 0:
                 item[0] = item[0] - 1
+        itemCount -= 1
         # printing notification message
         print("Item number: " + deleteItem + " has been deleted!")
         print("")
